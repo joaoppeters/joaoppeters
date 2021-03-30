@@ -1,0 +1,217 @@
+cat 'file1' --> check contents of a file.
+
+
+diff 'file1' 'file2' --> to see the differences between two files.
+
+
+diff -u 'file1' 'file2' --> to see a more detailed difference between two files.
+
+
+wdiff 'file1' 'file2' --> check for word differences between two files.
+
+
+diff -u 'file1' 'file2' > change.diff    -->  
+	generates a file with the contents	
+	of 'diff -u' command. The generated file is usually referred to as a
+	diff file or sometimes a patch file. It includes all the changes 
+	between the old file and the new one, plus the additional context
+	needed to understand the changes and to apply those changes back to 
+	the original file.
+
+
+patch 'file1' < change.diff     --> 
+	automatically updates the file you want by:
+	firstly creating the 'change.diff' file, as instructed above, and
+	secondly using this command and syntax to redirect the contents of
+	the file to standard input.
+
+
+git config --global user.email "email"  
+	and
+git config --global user.name "name" --> basic cofiguration for the git 
+	environment of your computer. Make sure to type the info between
+	quotation marks.
+
+
+git init --> initialize a git repository.
+
+
+git status --> check the status of the git repository inside your computer.
+
+
+git add 'file name' --> add a new or modified file to the git repository.
+
+
+git add -p --> Git will show the change being added and ask if we want to
+	stage it or not.
+
+
+git commit -m "message" --> adds a message so that your changes can be 
+	recorded on the git environment.
+
+
+git commit -a --> A shortcut to stage any changes to TRACKED files and
+        commit them in one step. It DOESN'T WORK on NEW files.
+
+
+git commit -a -m "message"
+
+
+git commit --amend --> git will take whatever is currently in our staging
+	area and run the git commit workflow to overwrite the previous
+	commit. Normally this command is used when you want to add two new
+	files to your git repository, but forgets to add one of them.
+	After realizing you forgot to add the missing file, use the command
+	'git add file' followed by 'git commit --amend'.
+	AVOID AMENDING COMMITS THAT HAVE ALREADY BEEN MADE PUBLIC.
+	IT CHANGES THE HISTORY OF THE COMMITS.
+
+git log --> check the history of the commits of the respective project.
+	When using 'git log', it appears a 'HEAD -> master' sign on the latest
+	commit of the repository. HEAD is used to indicate what the currently
+	checked out snapshot is.
+
+
+git log -p --> to look at the actual lines that changed in each commit.
+	It is used to have a more detailed analysis of the changes made.
+
+
+git log -p -2 --> The dash P parameter lets us see the patch created by the 
+	commit while the dash two perimeter limits the output to the last 
+	two entries.
+
+
+git log --stat --> This will cause git log to show some stats aboute the
+	changes in the commit, like which files were changed and how many lines
+	were added or removed.
+
+
+git show 'commit ID' --> used to see the changes made on the specific git 
+	commit.
+
+
+git diff --> is equivalent to the 'diff -u' output, and helps remember which
+	changes were made on the file. It shows only unstaged changes by
+	default.
+
+
+git diff --staged --> Enables to see the changes that are staged but not
+	commited, before we call git commit.
+
+
+git rm --> removes files from the repository, stoping the file from being
+	tracked by git and remove it from the git directory. IT WILL BE 
+	NEEDED TO WRITE A COMMIT MESSAGE AS TO WHY YOU'VE DELETED THEM.
+
+
+git mv --> rename files in the repository. It can also be used to move files
+	between directories if the repository includes more directories.
+
+
+.gitigonore --> used to ignore files that get automatically generated
+	(by scripts or operating system) and we don't want in our repository.
+	Use the following command:
+		echo file_to_ignore > .gitignore
+	This file needs to get tracked and commited.
+
+
+git checkout 'file' --> Change a file back to its earlier committed state.
+	Revert changes to modify files before they get started. We use
+	git checkout to check out the latest snapshot for both files and 
+	for branches.
+
+
+git checkout -p 'file' --> Check out individual changes instead of the whole file.
+
+
+git reset HEAD 'file' --> Want to remove something from the staging area that 
+	don't actually want to commit.
+
+
+git reset -p 'file' --> Get git to ask you which specific changes you want
+	to reset.
+
+
+git revert HEAD --> It creates a commit that contains the inverse of all the
+	changes made in the bad commit in order to cancel them out. You get
+	the effect of having undone the changes, but the HISTORY OF THE
+	COMMITS in the project remains consisten leaving a record of exactly 
+	what happened. It reverts to the previous git commit.
+
+
+.hash ID HEADS are used in git repositories so that you can veerify the data
+you get back out is the exact smae data you put in.
+
+.branch: A pointer to a particular commit. It represents an independent line
+of development in a project, of which the commit it points to is the latest
+link in a chain of developing history. (default branch -> master) 
+
+.we can use the git branch command to list, create, delete, and manipulate
+branches.
+
+
+.We use git checkout to check out the latest snapshot for both files and
+for branches.
+
+
+git branch --> list all the branches on the repository.
+
+
+git branch new_branch_name --> creates a new branch with the respective name.
+
+
+git checkout branch_name --> changes to desired branch.
+
+
+git checkout -b new_branch --> creates a new branch and automatically changes
+	to this new branch.
+
+
+git branch -d branch_name --> delete branch.
+
+
+MERGING --> the term that git uses for combining branched data and
+history together.
+
+
+git merge branch_name --> command used for combining branch data and 
+	history together. It merges to the master branch automatically.
+
+
+*************
+To see what the commit history looks like now, we'll use a couple of handy 
+options to the 'git log' command; --graph for seeing the commits as a graph, 
+and --oneline to only see one line per commit. This format helps us better
+understand the history of our commits and how merges have occurred. 
+	
+git log --graph --oneline
+*************
+
+git merge --abort --> If there are merge conflicts (meaning files are 
+	incompatible), --abort can be used to abort the merge action.
+
+
+git pull --> updates the local repository with changes made in the remote
+	repository.
+
+
+git fetch --> sync the data. This command copies the commits done in the
+	remote repository to the remote branches, so we can see what other
+	people have committed.
+
+
+git rebase branch --> Changing the base commit that's used for our branch. 
+	From three-way merge to fast-forward merge.
+
+
+
+
+
+
+
+
+
+
+
+
+
