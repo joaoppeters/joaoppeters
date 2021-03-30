@@ -9,7 +9,7 @@
 ### Connect with me:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
 [![Gmail][gmail-brand]][mailto-profile]
-
+[![Lattes][lattes-brand]][lattes-profile-url]
 
 <br />
 
@@ -31,6 +31,11 @@
 <!-- LinkedIn -->
 [linkedin-brand]: http://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leandro-miranda-fahur-machado/
 [linkedin-profile-url]: https://www.linkedin.com/in/jppbrbs/
+
 <!-- GMAIL -->
 [gmail-brand]: http://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:fahurleandro@gmail.com
 [mailto-profile]: mailto:joao.peters@engenharia.ufjf.br
+
+<!-- LATTES -->
+[lattes-brand]: https://img.shields.io/badge/-Lattes-0077B5?style=for-the-badge&logo=Lattes&logoColor=white&link=http://lattes.cnpq.br/8753500809040036
+[lattes-profile-url]: http://lattes.cnpq.br/8753500809040036
