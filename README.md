@@ -2,7 +2,7 @@
 
 - ⚡ Electrical Engineering graduated with emphasis on Power Systems
 - 💻 Enjoy adventuring myself into Programming
-
+- 🏀⚾ Sports Enthusiast, working on Sports Data Science projects as a hobby ⚽🏈
 
 <br />
 
