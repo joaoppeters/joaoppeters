@@ -1,4 +1,4 @@
-# Hi there, I'm João <img alt="João | BR" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Brazilian_flag_icon_round.svg"/> | John <img  alt="João | EN" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/8/88/United-states_flag_icon_round.svg"/>
+## Hi there
 
 - ⚡ Electrical Engineering graduated with emphasis on Power Systems
 - 💻 Enjoy adventuring myself into Programming
