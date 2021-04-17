@@ -1,4 +1,4 @@
-## Hi there
+## Hi there 👋
 
 - ⚡ Electrical Engineering graduated with emphasis on Power Systems
 - 💻 Enjoy adventuring myself into Programming
