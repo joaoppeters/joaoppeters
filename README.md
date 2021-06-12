@@ -13,7 +13,7 @@
 
 <br />
 
-'''
+<!---
 ### Languages and Tools:
 <img align="left" alt="Python" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" />
 <img align="left" alt="LaTeX" width="46px" src="https://user-images.githubusercontent.com/5700795/49007377-3bac3d00-f163-11e8-8172-cdad5fde4c8c.png" />
@@ -26,7 +26,7 @@
 
 <br />
 <br />
-'''
+--->
 
 <!-- REFERENCE LINKS -->
 <!-- LinkedIn -->
