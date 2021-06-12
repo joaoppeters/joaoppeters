@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-- Electrical Engineering graduated with emphasis on Power Systems
+- Power Systems Electrical Engineer
 - Enjoy adventuring myself into Programming
-- Sports Enthusiast, working on Sports Data Science projects as a hobby
+- Data Science Enthusiast, working on Sports Data projects as a hobby
 
 <br />
 
