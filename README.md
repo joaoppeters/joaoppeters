@@ -6,7 +6,7 @@
 
 <br />
 
-### Connect with me:
+### Contact:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
 [![Gmail][gmail-brand]][mailto-profile]
 
