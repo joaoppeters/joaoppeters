@@ -6,6 +6,7 @@
 
 
 <br />
+<br />
 
 ### Contact:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
@@ -18,6 +19,7 @@
 
 <br />
 <br />
+
 ### Languages and Tools:
 <img align="left" alt="Python" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/600px-Python-logo-notext.svg.png" />
 <img align="left" alt="Mathematica" width="44px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1ddcad65-c028-4186-b9e8-01c91df2656b/dw5otq-3a531747-b9b4-4732-a6db-e7136e500a98.png/v1/fill/w_464,h_473,strp/mathematica_logo_icon_by_ziofil_dw5otq-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD00NzMiLCJwYXRoIjoiXC9mXC8xZGRjYWQ2NS1jMDI4LTQxODYtYjllOC0wMWM5MWRmMjY1NmJcL2R3NW90cS0zYTUzMTc0Ny1iOWI0LTQ3MzItYTZkYi1lNzEzNmU1MDBhOTgucG5nIiwid2lkdGgiOiI8PTQ2NCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ulC60kx9D0wgK86sHt-XA2rnHuAzahNSN9_biVLJDEI" />
