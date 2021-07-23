@@ -3,9 +3,6 @@
 - Power Systems Electrical Engineer (currently grad student)
 - Data Science Enthusiast
 
-
-
-<br />
 <br />
 
 ### Contact:
@@ -16,8 +13,6 @@
 [![Lattes][lattes-brand]][lattes-profile-url]
 -->
 
-
-<br />
 <br />
 
 ### Languages and Tools:
@@ -26,8 +21,6 @@
 <img align="left" alt="OpenDSS" width="56px" src="https://img.informer.com/icons/png/128/4020/4020764.png" />
 <img align="left" alt="PSIM" width="42px" src="https://upload.wikimedia.org/wikipedia/commons/8/86/PSIM_logo.png" />
 
-<br />
-<br />
 
 <!-- REFERENCE LINKS -->
 <!-- LinkedIn -->
