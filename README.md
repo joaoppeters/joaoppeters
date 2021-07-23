@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-- Power Systems Electrical Engineer (currently grad student)
+- Power Systems Electrical Engineer
 - Data Science Enthusiast
 
 <br />
