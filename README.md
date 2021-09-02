@@ -3,7 +3,6 @@
 - Power Systems Electrical Engineer
 - Data Science Enthusiast
 
-<br />
 
 ### Contact:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
