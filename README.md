@@ -1,11 +1,8 @@
 ## Hi there 👋
 
 - Power Systems Electrical Engineer
-- Data Science Enthusiast
-- IEEE Member
 - MSc student at UFJF/PPEE program 
 - Graduate Research Assistant
-
 
 ### Contact:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
