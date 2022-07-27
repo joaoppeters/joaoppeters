@@ -19,4 +19,4 @@
 
 <!-- GMAIL -->
 [gmail-brand]: http://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:fahurleandro@gmail.com
-[mailto-profile]: mailto:joao.peters@ieee.org
+[mailto-profile]: mailto:jppbrbs@gmail.com
