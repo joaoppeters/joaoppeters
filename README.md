@@ -3,6 +3,12 @@
 - Power Systems Electrical Engineer
 - MSc student at UFJF/PPEE program 
 - Graduate Research Assistant
+- Power Systems interests include:
+  - Analysis & Modeling
+  - Stability
+  - Sensitivity
+  - Optimization
+  - Operation & Planning
 
 ### Contact:
 [![LinkedIn][linkedin-brand]][linkedin-profile-url]
