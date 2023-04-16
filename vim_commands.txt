@@ -1,0 +1,317 @@
+%
+%
+
+GLOBAL COMMAND
+:h[elp] keyword - open help for keyword
+:sav[eas] filename - save file as filename
+:clo[se] - close current pane
+:ter[minal] - open a terminal window
+K - open man page for word under the cursor
+
+%
+%
+
+CURSOR MOVEMENT
+h - move cursor left
+j - move cursor down
+k - move cursor up
+l - move cursor right
+
+H - move to top of screen
+M - move to middle of screen
+L - move to bottom of screen
+
+w - jump forward to the start of a word
+W - jump forwards to the start of a word (words can contain punctuation)
+
+e,ge - jump forward to the end of a word
+E,gE - jump forwards to the end of a word (words can contain punctuation)
+
+b - jump backwards to the start of a word
+B - jump backwards to the start of a word (words can contain punctuation)
+
+% - move to matching character (default supported pairs: '()', '[]', '{}' - use :h matchpairs for more info)
+
+0 - jump to the start of the line
+^ - jump to the first non-blank character of the line
+$ - jump to the end of the line
+g_ - jump to the last non-blank character of the line
+
+gg - move to start of file
+G - move to end of file
+
+gd - move to local declaration
+gD - move to global declaration
+
+fx - jump to next occurrence of character x
+Fx - jump to the previous occurrence of character x
+
+tx - jump to before next occurrence of character x
+Tx - jump to after previous occurrence of character x
+
+; - repeat previous f, t, F or T movement
+, - repeat previous f, t, F or T movement backwards
+
+} - jump to next paragraph or function/block
+{ - jump to previous paragraph or function/block
+
+zz - center cursor on screen
+zt - position cursor on top of the screen
+zb - position cursor on bottom of the screen
+
+ctrl+e - move screen down one line without moving cursor
+
+ctrl+y - move screen up one line without moving cursor
+
+ctrl+b - move back one full screen
+
+ctrl+u - move back 1/2 a  screen
+
+ctrl+f - move forward one full screen
+
+ctrl+d - move forward 1/2 a screen
+
+%
+%
+
+INSERT MODE
+i - insert before the cursor
+I - insert at the beginning of the line
+
+a - append after the cursor
+A - append at the end of the line
+
+o - open a new line below the current line
+O - open a new line above the current line
+
+ea - insert at the end of the word
+
+ctrl+h - delete the character before the cursor during insert mode
+
+ctrl+w - delete word before the cursor during insert mode
+
+ctrl+j - begin new line during insert mode
+
+ctrl+t - indent line one shiftwidth during insert mode
+
+ctrl+d - de-indent line one shiftwidth during insert mode
+
+ctrl+n - insert next match before the cursor during insert mode
+
+ctrl+p - insert previous match before the cursor during insert mode
+
+ctrl+rx - insert the contents of register x
+
+ctrl+ox - temporarily enter normal mode to issue one normal-mode command x
+
+Esc or ctrl+c - exit insert mode
+
+%
+%
+
+EDITING
+r - replace a single character
+R - replace more than one character (until Esc is pressed)
+
+J - join line below to the current one with one space in between
+gJ - join line below to the current one without space in between
+
+gwip - reflow paragraph
+
+g~ - switch case up to motion
+
+gu - change to lowercase up to motion
+gU - change to uppercase up to motion
+
+cc - change entire line
+c$ or C - change to the end of the line
+
+ciw - change entire word
+cw or ce - change to the end of the word
+
+s - delete character and substitute text
+S - delete line and substitute text (same as cc)
+
+xp - transpose two letters (delete and paste)
+
+u - undo
+U - restore last change line
+
+ctrl+r - redo
+
+. - repeat last command
+
+%
+%
+
+VISUAL
+v - start visual mode, mark lines, then do a command (like y-yank)
+V - start linewise visual mode
+o - move to other end of marked area
+
+ctrl+v - start visual block mode
+0 - move to other corner of block mode
+
+aw - mark a word
+ab - mark a block with ()
+aB - mark a block with {}
+at - mark a block with <>
+
+ib - mark inner block with ()
+iB - mark inner block with {}
+it - mark inner block with <>
+
+> - shift text right
+< - shift text left
+y - copy marked text
+d - delete marked text
+~ - switch case
+u - change marked text to lowercase
+U - change marked text to uppercase
+
+%
+%
+
+REGISTERS
+:reg[isters] - show registers content
+
+"xy - copy into register x
+"xp - paste contents of register x
+"+y - copy into the system clipboard register
+"+p - past from the system clipboard register
+
+%
+%
+
+MARKS & POSITIONS
+:marks - list of marks
+
+ma - set current position for mark A
+`a - jump to position of mark A
+y`a - copy text to position of mark A
+`0 - go to the position where vim was previously exited
+`" - go to the position when last editing this file
+`` - go to the position before the last jump
+
+:ju[mps] - list of jumps
+
+ctrl+i - go to newer position in jump list
+
+ctrl+o - go to older position in jump list
+
+:changes - list of changes
+
+g, - go to newer position in change list
+g; - go to older position in change list
+
+ctrl+] - jump to the tag under cursor
+
+%
+%
+
+MACROS
+qa - record a macro
+q - stop recording macro
+@a - run macro a
+@@ rerun last run macro
+
+%
+%
+
+CUT & PASTE
+yy - copy a line
+
+yw - copy the characters of the word from the cursor position to the start of the next word
+yiw - copy word under the cursor
+yaw - copy word under the cursor and the space after or before it
+y$ or Y - copy to the end of line
+
+p - paste the clipboard after cursor
+P - paste the clipboard before cursor
+
+gp - paste the clipboard after cursor and leave cursor after the new text
+gP - paste the clipboard before cursor and leave cursor after the new text
+
+dd - cut a line
+dw - cut the characters of the word from the cursor position to the start of the next word
+diw - cut word under the cursor
+daw - cut word under the cursor and space after or before it
+d$ or D - cut to the end of the line
+
+:3,5d - delete lines 3 to 5
+
+:g/{pattern}/d - delete all lines containing pattern
+:g!/{pattern}/d - delete all lines not containing pattern
+
+x - cut character
+
+%
+%
+
+INDENT TEXT
+>> - indent line one shiftwidth
+<< - de-indent line one shiftwidth
+>% - indent a block with () or {}
+<% - de-indent a block with () or {}
+>ib - indent inner block with ()
+>at - indent inner block with <>
+3== - re-indent 3 lines
+=% - re-indent a block with () or {}
+=iB - re-indent inner block iwth {}
+gg=G - re-indent entire buffer
+]p - paste and adjust indent to current line
+
+%
+%
+
+EXITING
+:w - write file
+:w !sudo tee % - write out the current file using sudo
+:wq or :x or ZZ - write and quite
+
+:q - quit
+:q! or ZQ - quit and discard unsaved changes
+
+:wqa - write and quit on all tabs
+
+%
+%
+
+SEARCH & REPLACE
+/pattern - search forward for pattern
+?pattern - search backward for pattern
+\vpattern - very magic pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
+
+n - repeat search in same direction
+N - repeat search in opposite direction
+
+:%s/old/new/g - replace all old pattern with new pattern throughout file
+:%s/old/new/gc - replace all old pattern with new pattern throughout file with confirmations
+
+%
+%
+
+SEARCH IN MULTIPLE FILES
+:vim[grep] /pattern/ {`{file}`} - search for pattern in multiple files
+
+:cn[ext] - jump to the next match
+:cp[revious] - jump to the previous match
+:cope[n] - open a new window containing the list of matches
+:ccl[ose] - close the quickfix window
+
+%
+%
+
+TABS
+:tabnew or :tabnew {page.words.file} - open a file in a new tab
+
+ctrl+wT - move the current split window into its own tab
+
+gt or :tabn[ext] - move to the next tab
+gT or :tabp[revious] - move to the previous tab
+#gt - move to tab number #
+
+:tabm[ove] # - move current tab to the #th position (indexed from 0)
+:tabc[lose] - close the current tab and all its windows
+:tabo[nly] - close all tabs except for the current one
+:tabdo command - run the command on all tabs
