@@ -1,7 +1,7 @@
 ## Hi there 👋
 
-- Power Systems Electrical Engineer
-- MSc student at UFJF/PPEE program 
+- Power Systems Electrical Engineer (BS'21, MS'23)
+- PhD student in Electrical Engineer @ EESC-USP
 - Graduate Research Assistant
 - Power Systems Research Areas:
   - Analysis
