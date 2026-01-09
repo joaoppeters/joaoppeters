@@ -13,7 +13,7 @@ I'm **João Pedro Peters**, a power systems researcher and engineer⚡.
 - ⚡ Power System Stability & Control  
 - 🔁 Nonlinear Systems Analysis & Control  
 - 🗺️ Power System Planning & Operation
-- 🖥️ Power System Software Development
+- 🖥️ Power System Software Enthusiast and Open-Source Contributor
 
 ## 📫 Connect with Me
 
